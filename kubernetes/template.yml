@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: username/order:latest
+          image: mjbae327/gateway:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: menu
-          image: username/menu:latest
+          image: mjbae327/menu:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: store
-          image: username/store:latest
+          image: mjbae327/store:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -138,7 +138,7 @@ spec:
     spec:
       containers:
         - name: inventory
-          image: username/inventory:latest
+          image: mjbae327/inventory:latest
           ports:
             - containerPort: 8080
           readinessProbe:

@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.Date;
 import java.util.List;
 
-
 @FeignClient(name = "menu", url = "${api.url.menu}")
  
 public interface MenuService {
